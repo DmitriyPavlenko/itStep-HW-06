@@ -1,0 +1,289 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wrap{
+    width: 1170px;
+    margin: auto;
+}
+nav{
+    background-color: rgb(54, 54, 54);
+    display: flex;
+    align-items: center;
+    padding: 10px 0 10px 35px;
+}
+.logo{
+    width: 45px;
+}
+.menu{
+    list-style: none;
+    display: flex;
+}
+.menu li a{
+text-decoration: none;
+color: white;
+margin-left: 20px;
+}
+.header-logo{
+    width: 80px;
+}
+header{
+    background-image: url(../img/header_bg.jpg);
+    padding: 150px 0 200px 0;
+    text-align: center;
+    color: white;
+    background-position: 15% 50%;
+}
+h1{
+    margin-top: 45px;
+}
+.hidden{
+    display: none;
+}
+.service{
+    background-color: #e4e4e7;
+    padding: 30px 0 50px 0;
+}
+.items-block{
+    display: flex;
+    justify-content: space-around;
+}
+.item{
+    width: 320px;
+    text-align: center;
+    color: grey;
+}
+.fa-heart{
+    font-size: 50px;
+}
+.fa-regular{
+    font-size: 50px;
+}
+.item h3{
+    padding: 20px 0;
+}
+p{
+    line-height: 1.5;
+}
+.about{
+    padding: 50px 0 45px 0;
+}
+.title{
+    font-weight: normal;
+    color: rgba(0, 0, 0, 0.611);
+    text-transform: uppercase;
+    border-bottom: 1px solid grey;
+    padding-bottom: 20px;
+    width: 460px;
+    text-align: center;
+    margin: 0 auto 30px;
+}
+.block-about p{
+    width: 43%;
+    margin: 0 15px;
+    color: grey;
+}
+.block-about{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.design{
+    padding: 150px 55px;
+    background-image: url(../img/bg/divider1.jpg);
+    color: white;
+    text-align: center;
+}
+.design p{
+    margin-top: 30px;
+}
+.line-white{
+    border-bottom: 1px solid white;
+    color: rgb(255, 255, 255);
+}
+.brand{
+    width: 800px;
+    margin: auto;
+    padding: 50px 0;
+    color: grey;
+}
+.brand p{
+    margin-bottom: 30px;
+}
+.phone{
+    width: 100%;
+}
+.design2{
+    padding: 150px 55px;
+    background-image: url(../img/bg/divider2.jpg);
+    color: white;
+    text-align: center;
+    background-position: 50% 45%;
+}
+.team{
+    padding: 50px 0 25px 0;
+}
+.block-team{
+    display: flex;
+    justify-content: space-around;
+}
+.team-item{
+    width: 23%;
+    text-align: center;
+}
+.team-item p{
+    color: grey;
+}
+.team-item a{
+    color: rgb(50, 120, 255);
+}
+.team-item img{
+    border-radius: 100%;
+}
+.team-item h4{
+    margin: 10px 0;
+}
+.design3{
+    height: 350px;
+    background-color: rgba(216, 216, 216, 0.314);
+    display: flex;
+    /* margin-bottom: 50px; */
+}
+.hiring{
+    text-align: center;
+    padding: 100px;
+}
+.hiring h3{
+    color: rgb(88, 88, 88);
+    font-size: x-large ;
+}
+.hiring p{
+    color: rgb(115, 115, 115);
+    padding: 20px 0 5px 0;
+}
+.mac{
+    padding: 40px;
+}
+.btn{
+    padding: 5px 15px;
+    color: antiquewhite;
+    background-color: rgba(1, 126, 1, 0.738);
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.design4{
+    padding: 150px 55px;
+    background-image: url(../img/bg/divider3.jpg);
+    color: white;
+    text-align: center;
+    background-position: 50% 45%;
+}
+.gallery{
+    padding-top: 50px;
+   
+}
+.image{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   gap: 20px;
+   margin: 60px;
+}
+.image img{
+    width: 32%;
+}    
+.design5{
+    padding: 150px 55px;
+    background-image: url(../img/bg/divider4.jpg);
+    margin: 60px 0;
+    color: white;
+    text-align: center;
+    background-position: 80% 10%;
+}
+.storyOne{
+    background-color: rgb(56, 56, 56);
+    text-align: center;
+    width: 1000px;
+}
+.storyTwo{
+    background-color: rgba(128, 128, 128, 0.215);
+    padding: 15px;
+    padding-bottom: 450px;
+    color: rgba(0, 0, 0, 0.611);
+    height: 420px;
+}
+.block-story{
+    display: flex;
+    margin: 60px;
+}
+
+.link{
+    text-decoration: none;
+    color: rgb(2, 156, 161);
+    padding-left: 20px;
+}
+.storyOne img{
+    border-radius: 100%;
+    width: 150px;
+    padding: 30px;
+}
+.storyOne h4{
+    color: rgb(128, 128, 128);
+    font-size: large;
+}
+.storyOne p{
+    color: rgb(128, 128, 128);
+    font-size: x-small;
+}
+.design6{
+    padding: 150px 55px;
+    background-image: url(../img/bg/divider6.jpg);
+    margin: 60px 0;
+    color: white;
+    text-align: center;
+    background-position: 50% 50%;
+    line-height: 2;
+}.design6 a{
+    color: rgb(50, 120, 255);
+}
+span{
+    margin-left: 15px;
+}
+.block-contact{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+    color: gray;
+}
+.info i{
+    padding-right: 5px;
+    color: gray;
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(50, 120, 255);
+}
+.letter{
+    width: 300px;
+}
+.support{
+    width: 300px;
+}
+.mail{
+    margin-top: 20px;
+    padding: 5px;
+    padding-left: 10px;
+    width: 250px;
+}
+.foot{
+    background-color: rgb(56, 56, 56);
+    text-align: center;
+    color: grey;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
